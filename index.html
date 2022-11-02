@@ -16,7 +16,10 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav
+      class="navbar navbar-expand-lg bg-light"
+      style="position: fixed; z-index: 1; width: 100%"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Innovative Geeks</a>
         <img
@@ -75,77 +78,84 @@
       </div>
     </nav>
 
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="true"
-      style="width: 640px; height: 360px; margin-left: auto; margin-right: auto"
-      ;
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://www.susla.edu/assets/susla/images/WebDevelopmentImage.jpeg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://fiverr-res.cloudinary.com/image/upload/w_880/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
+    <section>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+        style="
+          width: 640px;
+          height: 360px;
+          margin-left: auto;
+          margin-right: auto;
+        "
+        ;
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://www.susla.edu/assets/susla/images/WebDevelopmentImage.jpeg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://fiverr-res.cloudinary.com/image/upload/w_880/f_auto,q_auto/v1/attachments/generic_asset/asset/767bc10a0c44b0a67be1a94aea270205-1609336032121/website%20development-min.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
     <section id="featured_tutorials">
       <h2>Featured Tutorials</h2>
@@ -206,7 +216,89 @@
       </div>
     </section>
 
-    <section class="instructors"></section>
+    <section class="instructors">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h2 class="mb-4">Instructors</h2>
+          <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+            error amet numquam iure provident voluptate esse quasi, veritatis
+            totam voluptas nostrum quisquam eum porro a pariatur veniam.
+          </p>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-3 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">Maria Smantha</h5>
+          <h6 class="text-primary mb-3">"Code Phoenix"</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Quod eos id officiis hic tenetur quae
+            quaerat ad velit ab hic tenetur.
+          </p>
+        </div>
+        <div class="col-md-3 mb-5 mb-md-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">Lisa Cudrow</h5>
+          <h6 class="text-primary mb-3">"Code Dreamer"</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid commodi.
+          </p>
+        </div>
+        <div class="col-md-3 mb-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">John Smith</h5>
+          <h6 class="text-primary mb-3">"Code Wizard"</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et
+            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+            deleniti atque corrupti.
+          </p>
+        </div>
+        <div class="col-md-3 mb-0">
+          <div class="d-flex justify-content-center mb-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+              class="rounded-circle shadow-1-strong"
+              width="150"
+              height="150"
+            />
+          </div>
+          <h5 class="mb-3">John Smith</h5>
+          <h6 class="text-primary mb-3">"Code Lord"</h6>
+          <p class="px-xl-3">
+            <i class="fas fa-quote-left pe-2"></i>At vero eos et accusamus et
+            iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+            deleniti atque corrupti.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <script src="./script.js"></script>
 
