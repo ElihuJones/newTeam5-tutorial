@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,6 +16,65 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Innovative Geeks</a>
+        <img
+          src="https://th.bing.com/th/id/OIP.1OjbCn_4P69CyeALGKD6TQHaED?pid=ImgDet&rs=1"
+          alt="Geek logo"
+          with="50"
+          height="36"
+          class="d-inline-block align-top align-left"
+        />
+
+        <span class="hidden" Geek logo></span>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lessons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Instructors</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML/CSS</a></li>
+                <li><a class="dropdown-item" href="#">BOOTSTRAP</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">DOM</a>
+                </li>
+                <li><a class="dropdown-item" href="#">API</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
@@ -86,16 +146,79 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <section id="featured_tutorials">
+      <h2>Featured Tutorials</h2>
+      <div class="card-container">
+        <div class="row">
+          <div class="card" style="width: 11rem">
+            <a href="">
+              <img
+                class="img-fluid"
+                src="https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png"
+                alt="Responsive image"
+              />
+              <div class="card-body">
+                <h5 class="card-text">HTML & CSS</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 11rem">
+            <a href=""
+              ><img
+                class="img-fluid"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
+                alt="Responsive image"
+              />
+              <div class="card-body">
+                <h5 class="card-text">Bootstrap</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 11rem">
+            <a href="">
+              <img
+                class="img-fluid"
+                src="https://media.geeksforgeeks.org/wp-content/uploads/20210908120846/DOM.png"
+                alt="Responsive image"
+              />
+              <div class="card-body">
+                <h5 class="card-text">DOM</h5>
+              </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 11rem">
+            <a href="">
+              <img
+                class="img-fluid"
+                src="https://www.tpgi.com/wp-content/uploads/API-flat-illustration.png"
+                alt="Responsive image"
+              />
+              <div class="card-body">
+                <h5 class="card-text">API</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="instructors"></section>
+
+    <script src="./script.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-    crossorigin="anonymous"
-  ></script>
-  <script src="./script.js"></script>
 </html>
