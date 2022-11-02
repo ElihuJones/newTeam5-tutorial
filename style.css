@@ -1,1 +1,32 @@
-/* Created CSS file */
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+a .row {
+  color: black;
+}
+
+#featured_tutorials {
+  text-align: center;
+}
+
+img.img-fluid {
+  max-height: 122px;
+}
+
+div.card {
+  border-width: 5px;
+  margin: 5px;
+}
+
+.instructors {
+  background-color: #282634;
+  height: 300px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
