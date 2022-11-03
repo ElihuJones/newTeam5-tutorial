@@ -39,3 +39,17 @@ div.card {
 .hidden {
   display: none;
 }
+
+#search_btn {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  margin: auto;
+}
+
+#bookCard_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
