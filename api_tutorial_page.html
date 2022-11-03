@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div>
+    <nav
+      class="navbar navbar-expand-lg bg-light"
+      style="position: fixed; top: 0; width: 100%;"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Innovative Geeks</a>
+        <img
+          src="https://th.bing.com/th/id/OIP.1OjbCn_4P69CyeALGKD6TQHaED?pid=ImgDet&rs=1"
+          alt="Geek logo"
+          with="50"
+          height="36"
+          class="d-inline-block align-top align-left"
+        />
+
+        <span class="hidden" Geek logo></span>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+           
+           
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML/CSS</a></li>
+                <li><a class="dropdown-item" href="#">BOOTSTRAP</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">DOM</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./api_tutorial_page.html"
+                    >API</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+<section>
+    <div style="text-align: center; margin-top: 80px; background-color: #282634; color: white; height: 130px; border-radius: 25px;">
+    <h1 style="font-size: 60px;">Application Programming Interface (API)</h1>
+</div>
+    <div style="position: relative; padding-bottom: 30%; height: 0">
+        
+      <iframe
+        src="https://www.loom.com/embed/016829dd8ec645bd91372dbb19ec790f"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        style="
+          position: absolute;
+          top: 0;
+          right: 25%;
+          width: 50%;
+          height: 100%;
+          margin-top: 50px;
+        "
+      ></iframe>
+    </div>
+    </section>
+
+    <div style="margin: 150px 75px 100px 75px">
+      <h4>What is Lorem Ipsum?</h4>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </p>
+      <h4>Where does it come from?</h4>
+      <p>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It
+        has roots in a piece of classical Latin literature from 45 BC, making it
+        over 2000 years old. Richard McClintock, a Latin professor at
+        Hampden-Sydney College in Virginia, looked up one of the more obscure
+        Latin words, consectetur, from a Lorem Ipsum passage, and going through
+        the cites of the word in classical literature, discovered the
+        undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of
+        ethics, very popular during the Renaissance. The first line of Lorem
+        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+        1.10.32.
+      </p>
+      <h4>Why do we use it?</h4>
+      <p>
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. The point of
+        using Lorem Ipsum is that it has a more-or-less normal distribution of
+        letters, as opposed to using 'Content here, content here', making it
+        look like readable English. Many desktop publishing packages and web
+        page editors now use Lorem Ipsum as their default model text, and a
+        search for 'lorem ipsum' will uncover many web sites still in their
+        infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).
+      </p>
+    </div>
+
+    <!-- API Related Books Button -->
+    <div >
+      <h2 class="mb-4" style="text-align: center;">Want to learn more? <br>Click below to see a list of related books!</h2>
+      <button id="search_btn" class="btn btn-danger">API</button>
+    
+      <div class="row" id="bookCard_container">
+
+      </div>
+    
+    </div>
+
+    <div class="tutorial_page_footer">
+        <div class="row justify-content-evenly">
+          <div class="col-md-5 mt-5">
+            
+            <h3 class="mb-4">Contact form</h3>
+  
+  
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name">
+                <div id="emailHelp" class="form-text">We'll never share your information with anyone else.</div>
+              </div>
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <button type="submit" class="btn btn-danger">Submit</button>
+  
+                </div>
+              </div>
+            </form>
+            <div class="col-md-5 mt-5">
+              <h3 class="mb-4">Address</h3>
+              <p>1234 Seattle Way <br>
+                Seattle, WA 98101 <br>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-minus-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                </svg>Call: 206-678-9900
+               </p>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.15276740663!2d-74.03927146834499!3d40.75917036069802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f55fbea537%3A0x49d5f074061cac4e!2sLincoln%20Center%20for%20the%20Performing%20Arts!5e0!3m2!1sen!2sus!4v1667417325877!5m2!1sen!2sus" style="width: 100%," height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          
+        </div>
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
