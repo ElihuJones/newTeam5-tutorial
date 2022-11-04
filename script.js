@@ -25,7 +25,6 @@ search_btn.addEventListener("click", () => {
         const img = document.createElement("img");
         img.setAttribute("src", imgUrl);
         img.setAttribute("alt", gbElement.alt_description);
-        // img.setAttribute("id");
 
         anchorTag.appendChild(img);
 
