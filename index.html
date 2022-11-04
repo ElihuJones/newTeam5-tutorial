@@ -84,7 +84,7 @@
         class="carousel slide"
         data-bs-ride="true"
         style="
-          width: 640px;
+          width: 800px;
           max-height: 360px;
           margin-left: auto;
           margin-right: auto;
@@ -120,7 +120,7 @@
               class="d-block w-100 carousel-images"
               alt="..."
               style="width: 640px;
-              max-height: 360px;
+              max-height: 500px;
               margin-left: auto;
               margin-right: auto;"
             />
@@ -131,7 +131,7 @@
               class="d-block w-100 carousel-images"
               alt="..."
               style="width: 640px;
-              max-height: 360px;
+              max-height: 500px;
               margin-left: auto;
               margin-right: auto;"
             />
@@ -142,7 +142,7 @@
               class="d-block w-100 carousel-images"
               alt="..."
               style="width: 640px;
-              max-height: 360px;
+              max-height: 500px;
               margin-left: auto;
               margin-right: auto;"
             />
@@ -233,7 +233,7 @@
     <section id="instructors" class="instructors">
       <div class="row d-flex justify-content-center">
         <div class="col-md-10 col-xl-8 text-center">
-          <h2 class="mb-4">Instructors</h2>
+          <h2 class="mb-4" style="padding-top: 15px;">Instructors</h2>
           <p class="mb-4 pb-2 mb-md-5 pb-md-0">
             Meet our four awesome instructors/Innovative Geeks co-founders. They have a great amount of experience in Web Development and all have a passion for teaching. Each have their own unique way of teaching to accommodate any learning style. Learn more about them below and don't forget to check out our feautured tutorials to hear them in action!
           </p>
@@ -381,7 +381,7 @@
         let urlList = []
         let results = jsonData.results
         for (const elementObj of results) {
-          urlList.push(elementObj.urls.thumb)
+          urlList.push(elementObj.urls.regular)
         }
 
         let imageList = document.getElementsByClassName('carousel-images')
