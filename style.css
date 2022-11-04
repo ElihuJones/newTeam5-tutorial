@@ -53,3 +53,11 @@ div.card {
   margin-top: 1%;
   margin-bottom: 3%;
 }
+
+#featured_tutorials {
+  margin-top: 2%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}

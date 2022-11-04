@@ -19,6 +19,7 @@ search_btn.addEventListener("click", () => {
 
         const anchorTag = document.createElement("a");
         anchorTag.setAttribute("href", preview);
+        anchorTag.setAttribute("target", "_blank");
 
         card.appendChild(anchorTag);
 
